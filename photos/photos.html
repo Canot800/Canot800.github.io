@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title> Canot à glace 800</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Canot à glace 800">
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="../css/navBarEvenet.css" rel="stylesheet">
+    <link href="../css/photoStyle.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet' type='text/css'>   
+    <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="http://code.jquery.com/mobile/1.0rc2/jquery.mobile-1.0rc2.min.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <!-- Photoswipe -->
+    <link rel="stylesheet" href="../photoswipe/photoswipe.css">
+    <link rel="stylesheet" href="../photoswipe/default-skin/default-skin.css">
+    <script type="text/javascript">
+
+      $(document).ready(function()  {
+        $("a[id^='subMenu']").click(function() {
+          $('.photo').hide();
+
+       
+          document.getElementById("titleAlbum").innerHTML = $(this).data('value');
+          $("figure[id^='"+$(this).data("album")+"']").show();
+       
+          
+        });
+      }); 
+    </script>
+<!--     // function refreshImage(button) {
+       
+            
+    //         $("div[id^='"+$button.data("album")+"']").show();
+    //         document.getElementById("titleAlbum").innerHTML = clicked_val;
+    //   }; -->
+
+
+
+</head>
+
+  <body>
+  <font face="Roboto">
+
+     <!-- Le top de la page   -->
+    <div class="container-fluid removePadding" id="coverIndex"> 
+ 
+          <!-- Le bandeau de navigation -->
+          <div class="masthead textHeader ">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="padding-top:16px; padding-right:15px">
+          <span class="sr-only">Menu</span>
+            <span class="icon-barCool"></span>
+            <span class="icon-barCool"></span>
+            <span class="icon-barCool"></span>
+          </button>
+              <ul class="masthead-brand">
+                  <li><a href="../index.html">CANOT 800</a></li>
+              
+                  </ul>
+               
+                <div id="navbar" class="collapse navbar-collapse" style="padding-left:0px;margin-left:0px" >
+                <nav  style="margin-top:10px">
+                  <ul class="nav masthead-nav">
+                  <li><a href="../equipes.html">Équipe</a></li>
+                  <li ><a href="../evenements.html">Évènements</a></li>
+                  <li><a href="../sponsors.html">Commanditaires</a></li>
+                  <li class="active"><a href="../photos/photos.html">Photos</a></li>
+                  </ul>
+                </nav>
+                </div>
+          </div>
+    </div>
+    <!-- Image du header -->
+    <img src="../images/fond/topPage.svg"  alt="Generic placeholder image" style="width: 100%; " >
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <h1>
+                        Albums
+                    </h1>
+                </li>
+                <li >
+                    <a href="#" id="subMenu" data-album="blue" data-value="Course du Carnaval" >Course du Carnaval
+                    </a>
+                </li>
+                <li >
+                    <a href="#" id="subMenu" data-album="red"  data-value="Course de Rimouski" >Course de Rimouski
+                    </a>
+                  </li>
+                <li>
+                  <a href="#" id="subMenu" data-album="yellow"  data-value="Course du Père Noël">Course du Père Noël
+                  </a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid" style="min-height:500px;">
+                <div class="masthead textHeader visible-xs-block navbar-nav-custom" style="background-color:white; border-radius:5px">
+
+                      <div class="panel-group" id="accordion" >
+                          <div class="panel panel-default" style="background-color:transparent;">
+                           <a class="buttonMenuAlbum" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" style="background-color:transparent;">
+                              <div class="panel-heading" style="background-color:transparent;border-bottom: solid 2px rgb(230,230,230);">
+                                  
+                                  <h3>Albums <span class="glyphicon glyphicon-menu-down"></span><h3>
+                                  
+                                  <!-- <hr> -->
+                              </div>
+
+                              </a>
+
+                              <div id="collapseOne" class="panel-collapse collapse in" style="background-color:transparent">
+                                  <div class="panel-body removePadding" style="background-color:transparent">
+                                      <ul class="removePadding">
+                                           <a href="#" id="subMenu" data-album="blue" data-value="Course du Carnaval" >
+                                        <li class="removePadding" style="padding-top: 20px;">
+                                           Course du Carnaval
+                                           
+                                        </li>
+                                         </a>
+                                        <hr class="blueColorHr">
+                                         <a href="#" id="subMenu" data-album="red"  data-value="Course de Rimouski" >
+                                        <li style=" padding-top: 0px;">
+                                           Course de Rimouski
+                                           
+                                          </li>
+                                           </a> 
+                                          <hr class="blueColorHr">
+                                           <a href="#" id="subMenu" data-album="yellow"  data-value="Course du Père Noël">
+                                        <li style=" padding-bottom:20px;">
+                                         Course du Père Noël
+                                          
+                                        </li>
+                                        </a>
+                                    </ul>
+                                     
+                                  </div>
+                              </div>
+                          </div>
+                          
+                          
+                      </div>
+
+
+
+
+                  </div>
+                 <h1 id="titleAlbum"></h1>
+                 <div id="photos" class="gallery" >
+
+                  <figure id="blue" class="photo" style="display:none" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="../images/CourseCarnaval/11016089_648278798637534_8513345583332823602_n.jpg" itemprop="contentUrl" data-size="960x763">
+                   <img src="../images/CourseCarnaval/11016089_648278798637534_8513345583332823602_n.jpg"itemprop="thumbnail" alt="Image description"  />
+                  </a>
+                  <figcaption></figcaption>
+                  </figure>
+
+                  <figure id="blue" class="photo" style="display:none" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="../images/CourseCarnaval/photoback.jpg" itemprop="contentUrl" data-size="960x427">
+                   <img src="../images/CourseCarnaval/photoback.jpg"itemprop="thumbnail" alt="Image description"  />
+                  </a>
+                  <figcaption></figcaption>
+                  </figure>
+
+                  <figure id="blue" class="photo" style="display:none" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="../images/CourseCarnaval/photoBack1.jpeg" itemprop="contentUrl" data-size="2507x1674">
+                   <img src="../images/CourseCarnaval/photoBack1.jpeg"itemprop="thumbnail" alt="Image description"  />
+                  </a>
+                  <figcaption></figcaption>
+                  </figure>
+
+                  <figure id="blue" class="photo" style="display:none" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="../images/CourseCarnaval/photoEvent.jpg" itemprop="contentUrl" data-size="2048x1368">
+                   <img src="../images/CourseCarnaval/photoEvent.jpg"itemprop="thumbnail" alt="Image description"  />
+                  </a>
+                  <figcaption></figcaption>
+                  </figure>
+
+                  <figure id="blue" class="photo" style="display:none" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="../images/CourseCarnaval/11016089_648278798637534_8513345583332823602_n.jpg" itemprop="contentUrl" data-size="960x763">
+                   <img src="../images/CourseCarnaval/11016089_648278798637534_8513345583332823602_n.jpg"itemprop="thumbnail" alt="Image description"  />
+                  </a>
+                  <figcaption></figcaption>
+                  </figure>
+
+                  <figure id="blue" class="photo" style="display:none" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="../images/CourseCarnaval/photoback.jpg" itemprop="contentUrl" data-size="960x427">
+                   <img src="../images/CourseCarnaval/photoback.jpg"itemprop="thumbnail" alt="Image description"  />
+                  </a>
+                  <figcaption></figcaption>
+                  </figure>
+
+                  <figure id="blue" class="photo" style="display:none" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="../images/CourseCarnaval/photoBack1.jpeg" itemprop="contentUrl" data-size="2507x1674">
+                   <img src="../images/CourseCarnaval/photoBack1.jpeg"itemprop="thumbnail" alt="Image description"  />
+                  </a>
+                  <figcaption></figcaption>
+                  </figure>
+
+                  <figure id="blue" class="photo" style="display:none" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="../images/CourseCarnaval/photoEvent.jpg" itemprop="contentUrl" data-size="2048x1368">
+                   <img src="../images/CourseCarnaval/photoEvent.jpg"itemprop="thumbnail" alt="Image description"  />
+                  </a>
+                  <figcaption></figcaption>
+                  </figure>
+
+
+                  </div> <!--Photos-->
+            </div><!--container-fluid-->
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+
+
+
+    
+      
+
+    <!-- Le footer -->
+    <img src="../images/fond/bottomPage.svg"  alt="Generic placeholder image" style="width: 100%; " >
+    <footer id="footerBottom" class="footerMenu">
+        
+          <div class="container text-center">
+           
+           <a href="https://www.facebook.com/pages/Équipe-canot-à-glace-GPS-Avocats/764645320257449"> <i class="fa fa-facebook-official fa-4x" style="margin-bottom:20px"></i></a>
+               
+               <p>Site Web par <span>IplopDev</span></p>
+
+            </div>
+    </footer>
+
+    
+
+    </font>
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+        <!-- Background of PhotoSwipe. 
+             It's a separate element, as animating opacity is faster than rgba(). -->
+        <div class="pswp__bg"></div>
+
+        <!-- Slides wrapper with overflow:hidden. -->
+        <div class="pswp__scroll-wrap">
+
+            <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+            <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+            <div class="pswp__ui pswp__ui--hidden">
+
+                <div class="pswp__top-bar">
+
+                    <!--  Controls are self-explanatory. Order can be changed. -->
+
+                    <div class="pswp__counter"></div>
+
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                    <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                    <!-- element will get class pswp__preloader--active when preloader is running -->
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                          <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div> 
+                </div>
+
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button>
+
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+
+              </div>
+
+            </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../photoswipe/photoswipe.min.js"></script>
+    <script src="../photoswipe/photoswipe-ui-default.min.js"></script>
+    <script src="../photoswipe/initPhotoSwipe.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>   
+  </body>
+</html>

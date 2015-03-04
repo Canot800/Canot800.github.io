@@ -1,0 +1,214 @@
+/*
+ * Header
+ */
+
+.masthead-brand {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 60px;
+  text-decoration: none;
+
+}
+.masthead-brand a {
+  color: #096BB2;
+ 
+}
+.masthead-brand a:hover{
+  text-decoration: none;
+}
+.masthead-nav {
+  padding-left: 0px;
+  margin-left: 0px;
+
+}
+.masthead-nav > li {
+    display: inline;
+    text-align: center;
+
+}
+.masthead-nav > li + li {
+  margin-left: 0px;
+}
+.masthead-nav > li > a {
+
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 4px;
+  color: #096BB2;
+  background-color: white;
+
+}
+
+
+@media (min-width: 1200px) {
+  .masthead-brand {
+    float: left;
+
+  }
+  .masthead-nav {
+    float: right;
+
+  }
+}
+.removePadding{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0 ;
+}
+
+
+.masthead {
+  width: 100%;
+  height: auto;
+  color: white;
+  display: block;
+  background-color: white;
+}
+
+/*On passe dans ce mode et on va ajuster pour center le tout*/
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: static;
+    top: 0;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+   /*  Tout le hover (la ligne sous le nav)*/
+  .masthead-nav > li {
+    display: inline-block;
+    padding-left: 0px;
+    text-align: left;
+  }
+  .masthead-nav > li > a:hover,
+  .masthead-nav > li > a:focus {
+    /*background-color: transparent;*/
+
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-animation: fadein 0.4s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadein 0.4s; /* Firefox < 16 */
+          -ms-animation: fadein 0.4s; /* Internet Explorer */
+           -o-animation: fadein 0.4s; /* Opera < 12.1 */
+              animation: fadein 0.4s;
+     background-color: #147ECC;
+     color: white;
+  }
+
+
+   /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+  .masthead-brand {
+    text-align: center;
+    margin-right: 25px;
+  
+
+  }
+  .masthead-nav {
+    display: block;
+
+    text-align: center;
+
+
+  }
+
+ 
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%;
+  }
+}
+
+
+.navbar-toggle .icon-barCool + .icon-barCool {
+  margin-top: 6px;
+}
+
+
+
+.icon-barCool {
+  display: block;
+  width: 25px;
+  background-color: #000000;
+  height: 2px;
+  border-radius: 1px;
+}
+.navbar-toggle .icon-barCool + .icon-barCool {
+  margin-top: 6px;
+}
+
+
+/*Animation pour le evenement hover*/
+
+@keyframes fadein {
+    from { background-color: transparent; color:#096BB2;  }
+    to   {  background-color: #147ECC; color: white; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { background-color: transparent; color:#096BB2;}
+    to   {  background-color: #147ECC; color: white; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { background-color: transparent; color:#096BB2;}
+    to   {  background-color: #147ECC; color: white; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { background-color: transparent; color:#096BB2;}
+    to   {  background-color: #147ECC; color: white; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { background-color: transparent;color:#096BB2; }
+    to   {  background-color: #147ECC; color: white; }
+}
+
+
+
+
+
+@keyframes fadeout {
+    from { background-color: #147ECC; color: white;}
+    to   {  background-color: transparent; color:#096BB2;}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeout {
+    from { background-color: #147ECC; color: white;}
+    to   {  background-color: transparent; color:#096BB2;}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeout {
+    from { background-color: #147ECC; color: white;}
+    to   {  background-color: transparent; color:#096BB2;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeout {
+    from { background-color: #147ECC; color: white;}
+    to   {  background-color: transparent;color:#096BB2; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadeout {
+    from { background-color: #147ECC; color: white;}
+    to   {  background-color: transparent;color:#096BB2; }
+}
+
+
+
+

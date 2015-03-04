@@ -1,0 +1,128 @@
+/*
+ * Header
+ */
+
+.masthead-brand {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: left;
+  font-size: 60px;
+  margin-left:0px;
+  padding-left:0px;
+  text-decoration: none;
+
+}
+.masthead-brand a {
+  color: black;
+  text-align: left;
+  font-size: 40px;
+ 
+  letter-spacing: 7px;
+}
+.masthead-brand a:hover{
+  text-decoration: none;
+  color:rgba(0,0,0,.7)
+}
+.masthead-nav {
+  text-align: left;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.masthead-nav > li {
+   
+  }
+.masthead-nav > li + li {
+  /*margin-left: 50px;*/
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #862826; /* IE8 proofing */
+
+}
+
+
+@media (min-width: 1200px) {
+  .masthead-brand {
+    /*float: center;*/
+    text-align: left;
+     margin-left:0px;
+    padding-left:0px
+
+  }
+  .masthead-nav {
+    /*float: center;*/
+
+  }
+}
+
+.masthead {
+  padding-top: 30px;
+}
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: static;
+    top: 0;
+    padding-right: 50px;
+    padding-left: 0px;
+    
+  }
+  .masthead-brand a {
+    font-size: 80px;
+    margin-left:0px;
+    padding-left:0px
+  }
+  .masthead-band a:hover {
+
+  }
+
+
+  /*  Tout le hover (la ligne sous le nav)*/
+  .masthead-nav > li {
+    line-height: 7px;
+    padding-left: 0px;
+
+  }
+  .masthead-nav > li > a:hover,
+  .masthead-nav > li > a:focus {
+    background-color: transparent;
+    color: #390C0B;
+ 
+  }
+  .masthead-nav > .active > a,
+  .masthead-nav > .active > a:hover,
+  .masthead-nav > .active > a:focus {
+    
+  }
+
+   /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%;
+  }
+}
+
+
+.icon-barCool {
+  display: block;
+  width: 25px;
+  background-color: #000000;
+  height: 2px;
+  border-radius: 1px;
+}
+.navbar-toggle .icon-barCool + .icon-barCool {
+  margin-top: 6px;
+}

@@ -1,0 +1,122 @@
+/*
+ * Header
+ */
+
+.masthead-brand {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 60px;
+  text-decoration: none;
+
+}
+.masthead-brand a {
+  color: white;
+}
+.masthead-brand a:hover{
+  text-decoration: none;
+
+  color:rgba(0,0,0,.5)
+}
+.masthead-nav {
+  text-align: center;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.masthead-nav > li {
+    display: inline
+  }
+.masthead-nav > li + li {
+  margin-left: 50px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: white;
+  border-bottom: 2px solid transparent;
+}
+
+
+@media (min-width: 1200px) {
+  .masthead-brand {
+    float: center;
+  }
+  .masthead-nav {
+    float: center;
+
+  }
+}
+
+.masthead {
+  padding-top: 30px;
+}
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: static;
+    top: 0;
+    padding-right: 50px;
+    padding-left: 50px;
+    
+  }
+
+
+  /*  Tout le hover (la ligne sous le nav)*/
+  .masthead-nav > li {
+    display: inline-block;
+    padding-left: 0px;
+  }
+  .masthead-nav > li > a:hover,
+  .masthead-nav > li > a:focus {
+    background-color: transparent;
+    border-bottom-color: rgba(255,255,255,0.2);
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    color: rgba(255,255,255,0.2);
+  }
+  .masthead-nav > .active > a,
+  .masthead-nav > .active > a:hover,
+  .masthead-nav > .active > a:focus {
+    color: #999999;
+    border-color: #999999;
+    border-width: 2px;
+    border-radius: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+
+    
+  }
+
+   /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%;
+  }
+}
+
+
+.icon-barCool {
+  display: block;
+  width: 25px;
+  background-color: #000000;
+  height: 2px;
+  border-radius: 1px;
+}
+.navbar-toggle .icon-barCool + .icon-barCool {
+  margin-top: 6px;
+}

@@ -1,0 +1,28 @@
+<figure id="blue" class="photo" style="display:none" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
+<a href="../images/CourseCarnaval/11016089_648278798637534_8513345583332823602_n.jpg" itemprop="contentUrl" data-size="960x763">
+ <img src="../images/CourseCarnaval/11016089_648278798637534_8513345583332823602_n.jpg"itemprop="thumbnail" alt="Image description"  />
+</a>
+<figcaption></figcaption>
+</figure>
+
+<figure id="blue" class="photo" style="display:none" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
+<a href="../images/CourseCarnaval/photoback.jpg" itemprop="contentUrl" data-size="960x427">
+ <img src="../images/CourseCarnaval/photoback.jpg"itemprop="thumbnail" alt="Image description"  />
+</a>
+<figcaption></figcaption>
+</figure>
+
+<figure id="blue" class="photo" style="display:none" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
+<a href="../images/CourseCarnaval/photoBack1.jpeg" itemprop="contentUrl" data-size="2507x1674">
+ <img src="../images/CourseCarnaval/photoBack1.jpeg"itemprop="thumbnail" alt="Image description"  />
+</a>
+<figcaption></figcaption>
+</figure>
+
+<figure id="blue" class="photo" style="display:none" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
+<a href="../images/CourseCarnaval/photoEvent.jpg" itemprop="contentUrl" data-size="2048x1368">
+ <img src="../images/CourseCarnaval/photoEvent.jpg"itemprop="thumbnail" alt="Image description"  />
+</a>
+<figcaption></figcaption>
+</figure>
+

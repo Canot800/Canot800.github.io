@@ -1,0 +1,336 @@
+ 
+/*Image en bakcground pour index*/
+ html, body { 
+  background: url("../images/fond/photoBlur2.png") no-repeat center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100%;
+}
+
+
+.boiteEvenement {
+	background-color: rgba(20,126,204,0.5);
+}
+
+.boiteEvenement h1{
+	color: #eeeeee
+}
+
+.sousBoiteEvenement {
+
+	max-width: 900px;
+	margin-bottom:0px;
+}
+
+	.sousBoiteEvenement h1 {
+			font-size: 50px;
+
+	}
+	.sousBoiteEvenement h2 {
+		font-size: 30px;
+		color: #eeeeee;	
+	}
+	.sousBoiteEvenement h3 {
+		font-size: 30px;
+
+		color: white;	
+	}
+	.sousBoiteEvenement h4 {
+		font-size: 15px;
+		line-height: 3px;
+		font-family: "Noto Sans";
+		color: white;
+	}
+	.sousBoiteEvenement p {
+		font-size: 15px;
+		font-family: "Noto Sans";
+		color: white;
+	}
+	.sousBoiteEvenement a{
+		font-size: 15px;
+	}
+
+.sousBoiteEvenement a{
+	background-color: transparent;
+	color: white;
+	border: rgba(255,255,255,1.0);
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-right: 20px;
+	border-style: solid;
+	border-width: 2px;
+	font-family: "Noto Sans";
+	border-radius: 5px;
+	font-size: 13px;
+}
+
+.sousBoiteEvenement a:hover{
+
+	
+	text-decoration: none;
+	
+	-webkit-animation: fadeinButton 0.3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeinButton 0.3s; /* Firefox < 16 */
+        -ms-animation: fadeinButton 0.3s; /* Internet Explorer */
+         -o-animation: fadeinButton 0.3s; /* Opera < 12.1 */
+            animation: fadeinButton 0.3s;
+     background-color: #147ECC;
+}
+
+
+@keyframes fadeinButton {
+    from { background-color: transparent;  }
+    to   {  background-color: #147ECC;  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeinButton {
+    from { background-color: transparent;  }
+    to   {  background-color: #147ECC;  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeinButton {
+    from { background-color: transparent;  }
+    to   {  background-color: #147ECC;  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeinButton {
+    from { background-color: transparent;  }
+    to   {  background-color: #147ECC;  }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadeinButton {
+    from { background-color: transparent;  }
+    to   {  background-color: #147ECC;  }
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+	.sousBoiteEvenement h1 {
+			font-size: 70px;
+
+	}
+	.sousBoiteEvenement h2 {
+		font-size: 40px;
+		color: #eeeeee;	
+	}
+	.sousBoiteEvenement h3 {
+		font-size: 40px;
+
+		color: white;	
+	}
+	.sousBoiteEvenement h4 {
+		font-size: 20px;
+		line-height: 3px;
+		font-family: "Noto Sans";
+		color: white;
+	}
+	.sousBoiteEvenement p {
+		font-size: 20px;
+		font-family: "Noto Sans";
+		color: white
+	}
+	.sousBoiteEvenement a{
+		font-size: 15px;
+	}
+}
+
+
+
+.textHeader h1{
+	font-size: 60px;
+	color: rgba(0,0,0,0.5);
+
+}
+
+
+#downIndex{
+	width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background: red;
+    display: block;
+    background-color: rgba(20, 20, 20, 1.0);
+}
+
+
+/*Permet d'être plein écran*/
+.fill { 
+    min-height: 100%;
+    height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.sous-titre h3{
+	font-size: 30px;
+	color: rgba(0,0,0,0.5);
+}
+
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.imageGPS {
+
+}
+
+
+
+@media (min-width: 768px) {
+	.boiteEvent{
+		display: inline-block;
+		margin: 0 auto;
+    	overflow: hidden;
+		width: 50%;
+		max-width: 500px;
+		min-width: 320px;
+	}
+	.centerEvent{
+		/*display: center-block;*/
+
+	}
+
+}
+
+
+ul {
+list-style-type: none;
+}
+
+
+#imgBottom {
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+}
+
+#footerBottom {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  /* Set the fixed height of the footer here */
+  height: auto;
+  color: black;
+  padding-top: 20px;
+  background-color: white;
+
+
+}
+#footerBottom a{
+	color: black;
+}
+#footerBottom a:hover{
+	color: rgba(200,200,200,1.0);
+}
+
+.footerSecondaire {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-family : "Noto Sans";
+  /* Set the fixed height of the footer here */
+  height: auto;
+  color: rgba(200,200,200,1.0);
+  background-color: rgba(20,20,20,1.0);
+}
+
+
+.footerMenu a {
+	font-size: 20px;
+	font-family : "Noto Sans"
+}
+.footerMenu a:hover {
+	text-decoration: none;
+	border-left:  rgba(255,0,0,1.0);
+	border-right:  rgba(255,0,0,1.0);
+	padding-left: 10px;
+	padding-right: 10px;
+	border-left-style: solid;
+	border-right-style: solid;
+}
+
+.centerSM {
+	text-align: center;
+}
+
+
+@media (min-width: 768px) {
+
+	.centerSM {
+		text-align: left;
+	}
+
+}
+
+
+
+.divider {
+    border: 1px solid #888888;
+    max-width: 200px;
+}
+
+
+.boxed {
+	border-left-style: solid;
+	border-right-style: solid;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	height: 100%;
+	border-width: 3px;
+	border-color: #aaaaaa;
+
+}
+
+
+#commenditaire{
+	font-family: "Noto Sans"
+}
+
+
+
+.buttonGoDown {
+	border-width: 0px;
+	border-color: transparent;
+	background-color: transparent;
+	color: rgba(20,20,20,0.5);
+	font-size: 1.5em;
+}
+
+
+.evenement-new {
+	background-color: rgba(250,0,0,0.5);
+	position:absolute;
+	bottom:0; 
+	width:100%
+}
+
+
+
+
+
+
+
+
+

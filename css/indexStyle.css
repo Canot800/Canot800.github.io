@@ -1,0 +1,398 @@
+ 
+/*Image en bakcground pour index*/
+ html, body { 
+  background: url("../images/fond/canot.jpg") no-repeat center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: scroll;
+  height:100%;
+  min-height: 500px;
+
+}
+
+
+
+.textHeaderLa h1{
+
+	font-size: 60px;
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
+.textHeader h1{
+	font-size: 60px;
+	color: rgba(0,0,0,0.5);
+	
+
+}
+
+
+#downIndex{
+	width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background: red;
+    display: block;
+    background-color: rgba(20, 20, 20, 1.0);
+}
+
+
+/*Permet d'être plein écran*/
+.fill { 
+    min-height: 500px;
+    height: 100%;
+    padding-left: 0px;
+    position: relative;
+    padding-right: 0px;
+}
+
+/*
+	La classe pour faire les évènements
+*/
+
+
+
+
+.positionBottom{
+	position: absolute;
+    bottom: 5%;
+    /*display: block;*/
+}
+
+
+
+
+
+
+
+ul {
+	list-style-type: none;
+}
+
+#footerBottom {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  /* Set the fixed height of the footer here */
+  height: auto;
+  color: white;
+  padding-top: 0px;
+  margin-top: 0px;
+  background-color: rgba(134,40,38,1.0);	
+  border-top-style: solid;
+  border-top-color: white;
+  border-top-width: 1px;
+
+}
+#footerBottom a{
+	color: white;
+}
+#footerBottom a:hover{
+	color: #147ECC;
+}
+
+.footerSecondaire {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-family : "Noto Sans";
+  /* Set the fixed height of the footer here */
+  height: auto;
+  color: rgba(200,200,200,1.0);
+  background-color: rgba(244,244,244,1.0);
+}
+
+
+
+.centerSM {
+	text-align: center;
+}
+
+
+@media (min-width: 768px) {
+
+	.centerSM {
+		text-align: left;
+	}
+
+}
+
+
+
+.divider {
+    border: 1px solid #888888;
+    max-width: 200px;
+}
+
+
+.boxed {
+	border-left-style: solid;
+	border-right-style: solid;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	height: 100%;
+	border-width: 3px;
+	border-color: #aaaaaa;
+
+}
+
+
+#commenditaire{
+	font-family: "Noto Sans";
+}
+
+
+
+
+
+
+
+
+
+/*Prochaine course style*/
+.master-event {
+	/*float:left;*/
+	display: table;
+	margin-top:20px;
+	
+}
+.name-course {
+    display: inline-block;
+    height: 100%;
+	
+
+}
+.name-course h1 {
+	max-width: 200px;
+	font-size: 30px;
+	display: table-cell;
+	height: 70px;
+	vertical-align: middle;
+}
+
+/*La boite de la date*/
+.date-course {
+    vertical-align: top;
+	float:left;
+	margin-left: 30px;
+	text-align: center;
+	margin-right: 20px;
+	width: 70px;
+	height: 70px;
+	padding-top: 3px; 
+	border: solid white 2px;
+	border-radius: 5px;
+}
+.date-course h1 {
+	font-size: 40px;
+}
+.date-course h2{
+	font-size: 20px;
+	margin-top: -5px;
+}
+
+
+
+/*Bouton de la course*/
+.button-course {
+	color: white;
+}
+.button-course:hover .date-course{
+	border-color: #147ECC;
+	background-color: #147ECC;
+	color: white;
+	-webkit-animation: fadein 0.4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 0.4s; /* Firefox < 16 */
+        -ms-animation: fadein 0.4s; /* Internet Explorer */
+         -o-animation: fadein 0.4s; /* Opera < 12.1 */
+            animation: fadein 0.4s;
+
+}
+.button-course:hover .name-course{
+	color: #147ECC;
+}
+
+.button-course .date-course{
+
+	-webkit-animation: fadeout 0.4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeout 0.4s; /* Firefox < 16 */
+        -ms-animation: fadeout 0.4s; /* Internet Explorer */
+         -o-animation: fadeout 0.4s; /* Opera < 12.1 */
+            animation: fadeout 0.4s;
+}
+@media (min-width: 768px) {
+
+
+	/*Prochaine course style*/
+	.master-event {
+		/*float:left;*/
+		display: table;
+		margin-top:20px;
+		
+	}
+	.name-course {
+	    display: inline-block;
+	    height: 100%;
+		
+
+	}
+	.name-course h1 {
+		max-width: 100%;
+		font-size:40px;
+		display: table-cell;
+		height: 100px;
+		vertical-align: middle;
+	}
+
+	/*La boite de la date*/
+	.date-course {
+	    vertical-align: top;
+		float:left;
+		margin-left: 30px;
+		text-align: center;
+		margin-right: 20px;
+		padding-top: 5px; 
+		width: 100px;
+		height: 100px;
+		border: solid white 2px;
+		border-radius: 5px;
+	}
+	.date-course h1 {
+		font-size: 60px;
+	}
+	.date-course h2{
+		font-size: 30px;
+		margin-top: -15px;
+	}
+
+
+
+	/*Bouton de la course*/
+	.button-course {
+		color: white;
+	}
+	.button-course:hover .date-course{
+		/*border-color: transparent;*/
+		/*background-color: #147ECC;*/
+		color: white;
+		-webkit-animation: fadein 0.4s; /* Safari, Chrome and Opera > 12.1 */
+	       -moz-animation: fadein 0.4s; /* Firefox < 16 */
+	        -ms-animation: fadein 0.4s; /* Internet Explorer */
+	         -o-animation: fadein 0.4s; /* Opera < 12.1 */
+	            animation: fadein 0.4s;
+
+	}
+	.button-course:hover .name-course{
+		color: white;
+	}
+
+	.button-course .date-course{
+
+		-webkit-animation: fadeout 0.4s; /* Safari, Chrome and Opera > 12.1 */
+	       -moz-animation: fadeout 0.4s; /* Firefox < 16 */
+	        -ms-animation: fadeout 0.4s; /* Internet Explorer */
+	         -o-animation: fadeout 0.4s; /* Opera < 12.1 */
+	            animation: fadeout 0.4s;
+	}
+}
+
+/*Animation pour le evenement hover*/
+
+@keyframes fadein {
+    from { background-color: transparent; }
+    to   {  background-color: #147ECC; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { background-color: transparent; }
+    to   {  background-color: #147ECC; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { background-color: transparent; }
+    to   {  background-color: #147ECC; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { background-color: transparent; }
+    to   {  background-color: #147ECC; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { background-color: transparent; }
+    to   {  background-color: #147ECC; }
+}
+
+
+
+
+
+@keyframes fadeout {
+    from { background-color: #147ECC; }
+    to   {  background-color: transparent; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeout {
+    from { background-color: #147ECC; }
+    to   {  background-color: transparent; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeout {
+    from { background-color: #147ECC; }
+    to   {  background-color: transparent; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeout {
+    from { background-color: #147ECC; }
+    to   {  background-color: transparent; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadeout {
+    from { background-color: #147ECC; }
+    to   {  background-color: transparent; }
+}
+

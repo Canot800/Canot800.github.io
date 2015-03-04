@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="100"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="bottomPage.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient4588"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4590" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4539">
+      <rect
+         style="fill:#c15b5b;fill-opacity:0.4353448;stroke:none"
+         id="rect4541"
+         width="1528.5714"
+         height="514.28571"
+         x="-4080"
+         y="1946.6479" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.66702967"
+     inkscape:cx="430.416"
+     inkscape:cy="-353.73374"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-952.36218)">
+    <path
+       style="fill:#ffffff;stroke:none"
+       d="m 4.2618744,1040.7208 20.0849626,2.8692 5.738581,5.0213 15.781038,0 7.890517,-17.2157 32.279453,7.1732 12.194443,10.0425 17.215701,0.7173 15.06375,-23.6715 12.91178,-6.4559 28.6928,5.0212 7.17324,10.7599 15.78105,-7.8906 9.32517,-8.6079 7.17324,9.3252 10.75979,6.4559 7.17318,-10.7598 6.45592,-1.4346 16.49836,-8.6079 28.69285,3.5866 5.02126,11.4772 30.12747,10.0424 11.47711,-1.4346 16.49837,5.0212 17.93302,-7.1731 19.36768,5.7385 -0.71733,5.7385 9.32518,-1.4346 10.75979,2.1519 11.47716,-1.4346 -5.02125,-23.6715 30.12746,-12.9118 25.82354,1.4346 1.43466,17.9331 32.27941,7.1731 12.91181,-12.1944 27.97549,20.0849 5.73857,-14.3464 10.04251,-9.3252 3.58659,-12.1944 23.1939,16.4984 16.25875,-2.1519 23.67156,5.7385 5.02124,19.3676 11.47717,-14.3463 19.36763,-2.8693 5.02126,6.4558 10.75983,0 2.86927,-5.0212 10.75983,5.7386 11.47711,7.1732 10.75979,-5.7386 15.78109,-8.6078 10.75978,15.0637 5.73858,-6.4559 17.2157,-7.8905 10.0425,8.6078 17.2157,0 c 0,0 0,4.3039 2.86926,5.0213 2.86932,0.7173 20.08501,0.7173 20.08501,0.7173 l 29.41014,-15.7811 20.08497,12.1945 -0.71729,7.1732 33.71406,0 8.60786,-12.9118 13.6291,2.8693 13.6291,-5.7385 12.19438,2.152 5.73859,7.1731 10.04246,-0.7173 13.6291,3.5866 8.60784,-6.4559 23.67163,-9.3252 -0.71736,25.1062 -998.51046078,0 z"
+       id="path3849"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Users/Yvon/Documents/design/CanotWebSite/images/fond/basFooter.png"
+       inkscape:export-xdpi="86.190002"
+       inkscape:export-ydpi="86.190002"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccsccccccccccccccccc" />
+  </g>
+</svg>
