@@ -3,10 +3,12 @@
  */
 
 .masthead-brand {
-  margin-top: 0px;
+  padding-top: 15px;
   margin-bottom: 0px;
-  font-size: 60px;
+  padding-bottom: 0px;
+  font-size: 30px;
   text-decoration: none;
+  height: 100%;
 
 }
 .masthead-brand a {
@@ -19,6 +21,8 @@
 .masthead-nav {
   padding-left: 0px;
   margin-left: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 
 }
 .masthead-nav > li {
@@ -43,6 +47,8 @@
 @media (min-width: 1200px) {
   .masthead-brand {
     float: left;
+    padding-top: 0px;
+    font-size: 60px;
 
   }
   .masthead-nav {
@@ -62,6 +68,8 @@
   color: white;
   display: block;
   background-color: white;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 /*On passe dans ce mode et on va ajuster pour center le tout*/
@@ -104,6 +112,7 @@
   .masthead-brand {
     text-align: center;
     margin-right: 25px;
+    font-size: 60px;
   
 
   }
@@ -145,6 +154,10 @@
 }
 
 
+
+#coverIndex {
+  background-color: white;
+}
 /*Animation pour le evenement hover*/
 
 @keyframes fadein {
@@ -210,5 +223,9 @@
 }
 
 
-
+.imgTop {
+  width: 100%;
+  min-width: 1000px;
+  
+}
 
